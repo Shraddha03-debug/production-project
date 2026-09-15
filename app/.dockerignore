@@ -1,0 +1,38 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local dev artifacts
+db.sqlite3
+staticfiles/
+*.log
+
+# Environment / secrets — NEVER bake these into the image
+.env
+.env.*
+*.pem
+*.key
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Docs / non-runtime
+README.md
+tests/

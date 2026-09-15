@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+env/
+.venv/
+
+# Django
+app/db.sqlite3
+app/staticfiles/
+app/.env
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfvars
+terraform/.terraform.lock.hcl
+terraform/crash.log
+
+# Kubernetes secrets (real values never committed)
+k8s/secret.yaml
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
