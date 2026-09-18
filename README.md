@@ -63,8 +63,4 @@ On every push to main, GitHub Actions:
 5. Deploy step is currently disabled, to be enabled once a live
    cluster exists
 
-## Notes
 
-Non-root container user, resource limits, and health probes are set
-up per Kubernetes best practices. See SECURITY_AND_OPERATIONS.md for
-the secrets management, rollback, and monitoring approach.
