@@ -8,7 +8,7 @@ pipeline.
 ## Flow
 
 Application -> Git -> Docker -> Container Registry -> Terraform ->
-Cloud Infrastructure (AWS) -> Kubernetes -> CI/CD -> Monitoring
+Cloud Infrastructure (AWS) -> Kubernetes -> CI/CD -> Monitoring.
 
 ## Project Structure
 
