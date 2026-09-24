@@ -3,7 +3,7 @@
 A Django app taken through the full DevOps lifecycle — containerized
 with Docker, deployed on Kubernetes, infrastructure defined with
 Terraform, and built/tested/deployed through a GitHub Actions
-pipeline.
+pipeline..
 
 ## Flow
 
